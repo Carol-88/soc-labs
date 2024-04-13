@@ -10,6 +10,7 @@ White: #FFF
 html, body, h1, h2, h3, p {
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -55,4 +56,59 @@ nav ul {
 .hero h1 {
     font-size: 3rem;
     padding-bottom: 1rem;
+}
+
+.info-spotify div {
+    display: flex;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.info-spotify article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-spotify h2 {
+    text-align: center;
+    padding: 1rem;
+    text-decoration:underline #00B172;
+}
+
+.info-spotify img {
+    width: 50px;
+    height: 50px;
+    padding-bottom: 1rem;
+}
+
+.info-spotify h3 {
+    color:#00B172;
+    font-weight:bolder;
+}
+
+.info-spotify p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.green {
+    display: flex;
+    background-color: #00B172;
+    margin: 0 20px;
+    color: white;
+    padding: 3rem;
+    
+}
+
+.green h2 {
+   text-decoration: underline;
+}
+
+.green h3 {
+    padding: 1rem;
+}
+.green p {
+    text-align: center;
 }
